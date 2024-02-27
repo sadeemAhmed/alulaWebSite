@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--settings here-->
+    <meta charset="UTF-8">
+    <!--css link here-->
+    <link rel="stylesheet" href="Reviews.css">
+    <!--font link here-->
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <!--title here-->
+    <title>Reviews</title>
+    <!--icon next of tital here-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" id="favicon">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+    <body>
+      <!--head  here-->
+        <div class="hero">
+          <nav>
+            <!--head sections here-->
+            <img src="img/alula-logo.png" alt="logo" class="logo">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="wheretoGo.html">Activities</a></li>
+              <li><a href="hotels.html">Hotels</a></li>
+              <li><a href="Reviews.html">Reviews</a></li>
+              <li><a href="whereToEat.html">resturants</a></li>
+            </ul>
+          </nav>
+       </div>
+<br>
+         <!--cotact here-->
+        <div class="contact">
+           <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+              <h2 class="h1">YOUR REVIEW!</h2>
+              <!--form start here-->
+              <form name ="myForm" id="f">
+              <label for="name">Enter your name:</label><br>
+              <input type="text" class="filed"id="name" placeholder="name here" required><br>
+              <label for="email">Enter your email :</label><br>
+              <input type="email" class="filed"id="email" placeholder="user@email.com"required><br>
+              <label for="num">enter your number :</label><br>
+              <input type="text" class="filed"id="num" placeholder="05XXXXX"required><br>
+              <!--cotact start here-->
+              <div class="ridu">
+                <label for="rate">How was your trip to alula?</label><br>
+                <input type="radio" id="r1" name="rate" value="1!">
+                <label for="r1">👎🏻</label><br>
+                <input type="radio" id="r2" name="rate" value="2">
+                <label for="r1">⭐️</label><br>
+                <input type="radio" id="r3" name="rate" value="3">
+                <label for="r1">⭐️⭐️</label><br>
+                <input type="radio" id="r4" name="rate" value="4">
+                <label for="r1">⭐️⭐️⭐️</label><br>
+                <input type="radio" id="r5" name="rate" value="5">
+                <label for="r1">⭐️⭐️⭐️⭐️</label><br><br>
+            </div>
+            <label for="opinion">your opinion here :</label><br>
+              <textarea class="filed area" id="opinion" placeholder="tell us what do you feel ? :)"></textarea>
+              <!--buttom for sending here-->
+              <button class ="btn" onclick="enterName(),enterEmail(),enterNum()">rate it!</button>
+            </form>
+            <!--form end here-->
+            </div>
+           </div> 
+        </div>
+        <!--js code here-->
+        <script src="chang.js"></script>
+        <!--footer here-->
+        <footer>
+          <br>
+          <h5 style="color: rgb(203, 166, 117) ; font-size: medium;">find us in </h5>
+         <!--social media links here-->
+          <a href="https://www.youtube.com/c/ExperienceAlUla"><img src="img/youtube.png" alt="youtube"width="20"hieght="20"></a>
+          <a href="https://twitter.com/ExperienceAlUla"><img src="img/twtr.png" alt="twitter" width="20"hieght="20"></a>
+          <a href="https://www.instagram.com/experiencealula/"><img src="img/instgram.png" alt="instgram"width="20"hieght="20"></a>
+          <br><br>
+          <p style="font-size: small;">© All rights reserved to Royal Commission for AlUla</p>
+        </footer>  
+</body>
+</html>

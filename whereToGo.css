@@ -1,0 +1,255 @@
+/* full body css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Aboreto', cursive;
+}
+/* head css*/
+.hero{
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(12,3,51,0,3),(12,3,51,0,3));
+  position: relative;
+  padding: 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(0,6);
+}
+/* big title insid hero head*/
+.tital{
+  font-weight: 500;
+  top: 300px;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+}
+/* nave insid head*/
+nav{
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  width: 100px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 40px;
+  height:20px;
+}
+nav ul li a:hover{
+  color: burlywood;
+}
+nav ul li a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+
+
+/*for all context below*/
+#container{
+  background-color: gainsboro;
+}
+/*---------- THE PARAGRAPH AT THE BEGINING--------- */
+.p1{  /*the paragraph  at the begining*/
+    text-align: center;
+    font-size: x-large;
+}
+.h1{  /*the header of the paragraph*/
+  color: rgb(238, 170, 81);
+}
+
+
+/* ----------MOMENTS---------- */
+
+.festivel-a{  /*the container of the moment paragraph*/
+  text-align: center;
+  font-size: larger;
+}
+.festivel-img{  /*the image of the moment paragraph*/
+  border:dotted white 4px;
+  display: block;
+  margin-left: 60px;
+  width: 60%;
+  float: left;
+  margin-left: 60px;
+}
+.festivel-h{  /*the header of moment paragraph*/
+  color: rgb(238, 170, 81);
+  float: right;
+  margin-right: 75px;
+}
+.festivel-p{  /*the paragraph about alula moments*/
+  float: right;
+  margin-right: 50px;
+}
+
+/* ----------------- */
+
+.festivel-h1{ /*the header of the paragraphs about alula moments*/
+  text-align: center;
+  clear: both;
+  display: block;
+  color: black;
+  font-size: 50px;
+  font-weight: lighter;
+}
+.festivels{ /*the container of the paragraphs*/
+  background-color: gainsboro;
+  font-weight: 100;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 1600px 50px;
+  position: relative;
+}
+/*------------ LEOPARD------------ */
+
+.leopard{ /*the container of the first paragraph of alula moment*/
+    background-color:rgb(207, 203, 203);
+    position: relative;
+    
+}
+.leopard-img{/*the image of the first paragraph of alula moment*/
+    top: 0px;
+    float: right;
+    margin-right: 100px;
+}
+.text1{ /*the container of the texts of first paragraph of alula moment*/
+    position: absolute;
+    border: 2px burlywood solid;
+    padding: 200px 100px 70px 30px;
+    top: 190px;
+    left: 80px;
+}
+#text1-1{ /*the second container of the texts of first paragraph of alula moment*/
+    width: 500px;
+    padding: 0px 0px;
+    text-align: center;
+    top: 50px;
+    left: 30px;
+}
+.leopard-h{ /*the header of the first paragraph of alula moment*/
+  text-align: center;
+  color: black;
+  font-weight: -200;
+  position: absolute;
+  bottom: 250px;
+  left: 30px;
+}
+.leopard-p{ /*the paragraph of the first paragraph of alula moment*/
+  font-size: 15px;
+  text-align: left;
+  top:100px;
+}
+
+
+
+/* ---------ARTS--------- */
+
+.arts{  /*the container of the second paragraph of alula moment*/
+    position: relative;
+    clear: both;
+}
+.arts-img{  /*the image of the second paragraph of alula moment*/
+    width: 780px;
+    margin: 350px 0px;
+    float: right;
+    clear: both;
+    margin-right: 100px;
+
+}
+#text2{ /*the container of the texts of second paragraph of alula moment*/
+    border: 2px burlywood solid;
+    clear: both;
+    padding: 200px 100px 70px 30px;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+#text2-1{ /*the second container of the texts of second paragraph of alula moment*/
+    width: 500px;
+    padding: 0px 0px;
+    text-align: center;
+    
+}
+.arts-h{ /*the header of the second paragraph of alula moment*/
+    text-align: center;
+    color: black;
+    bottom: 250px;
+    left: 30px;
+    position: absolute;
+}
+.arts-p{ /*the paragraph of the second paragraph of alula moment*/
+    font-size: 15px;
+    text-align: left;
+}
+
+
+/* ---------ENDURACE--------- */
+
+.endurance{ /*the container of the third paragraph of alula moment*/
+    background-color:gainsboro;
+    position: relative;
+    clear: both;
+}
+#endurance-img{ /*the image of the third paragraph of alula moment*/
+    width: 780px;
+    padding: 0px 0px;
+    float: right;
+    clear: both;
+    margin-right: 100px;
+}
+#text3{ /*the container of the texts of third paragraph of alula moment*/
+    border: 2px burlywood solid;
+    top: 180px;
+    left: 80px;
+    clear: both; 
+    padding: 200px 100px 70px 30px; 
+    position: absolute;
+}
+#text3-1{ /*the second container of the texts of third paragraph of alula moment*/
+    width: 500px;
+    padding: 0px 0px;
+    text-align: center;
+    top: 50px;
+    left: 30px;
+}
+#endurance-h{ /*the header of the third paragraph of alula moment*/
+    text-align: center;
+    color: black;
+    bottom: 310px;
+    left: 30px;
+    position: absolute;
+}
+#endurance-p{ /*the paragraph of the third paragraph of alula moment*/
+  font-size: 15px;
+  text-align: left;
+}
+
+
+
+footer {  /*the footer*/
+  padding: 20px ;
+  background: black;
+  color: #fff;
+  clear: both;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 600px;
+}
+
